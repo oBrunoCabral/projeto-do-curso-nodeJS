@@ -1,0 +1,20 @@
+{
+  "name": "contatos",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "~4.0.0",
+    "express-load": "^1.1.16",
+    "express-session": "latest",
+    "jade": "latest",
+    "morgan": "~1.0.0",
+    "pug": ">0.0.1",
+    "static-favicon": "~1.0.0"
+  }
+}
