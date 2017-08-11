@@ -6,6 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "~1.0.0",
     "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
@@ -13,6 +14,7 @@
     "express-load": "^1.1.16",
     "express-session": "latest",
     "jade": "latest",
+    "mongoose": "^4.11.6",
     "morgan": "~1.0.0",
     "pug": ">0.0.1",
     "static-favicon": "~1.0.0"

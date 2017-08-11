@@ -6,7 +6,18 @@ var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
 var session      = require('express-session');
 var load	     = require('express-load');
+var mongoose	 = require('mongoose');
 
+//conexão com mongo
+mongoose.connect('mongodb://localhost/acadtec', function(err){
+	useMongoClient: true;
+	if(err){
+		console.log('Erro ao conectar no mongodb: '+err);
+	}
+	else{
+		console.log('Conexão realizada com sucesso no MongoDB');
+	}
+});
 
 // var routes = require('./routes/index');
 // var users  = require('./routes/users');
